@@ -22,7 +22,7 @@ public class Main {
         driver= new ChromeDriver();
 
     }
-/*
+
     @Test
     public void Loginwithvaliduseridandvalidpassword(){
         driver.get("https://www.demo.guru99.com/V4/");
@@ -76,8 +76,7 @@ public class Main {
         Assert.assertEquals(expected_tit,actual_tit);
         a.accept();
     }
-*/
-    /*
+
     @Test
     public void checkresetbutton(){
         driver.get("https://www.demo.guru99.com/V4/");
@@ -91,8 +90,7 @@ public class Main {
         Assert.assertEquals(expecteduid,actualuid);
         Assert.assertEquals(expectedpassword,actualpassword);
     }
-*/
-    /*
+    
     @Test
     public void checkselinumbutton(){
         driver.get("https://www.demo.guru99.com/V4/");
@@ -101,9 +99,7 @@ public class Main {
         String actualtitle= driver.getTitle();
         Assert.assertEquals(expectedtitle,actualtitle);
     }
-     */
-
-    /*
+     
     @Test
     public void deletecustomerform(){
         driver.get("https://www.demo.guru99.com/test/delete_customer.php");
@@ -116,5 +112,5 @@ public class Main {
         Assert.assertEquals(expected,actual);
         a.accept();
     }
-     */
+    
 }
